@@ -6,9 +6,9 @@
 	<select id="getList" resultType="com.javaex.vo.GuestBookVo">
 		<![CDATA[
 			SELECT no
-				   ,name
-				   ,reg_date regDate
-				   ,content
+			       ,name
+			       ,reg_date regDate
+			       ,content
 			FROM   guestbook
 			ORDER BY no ASC
 		]]>
