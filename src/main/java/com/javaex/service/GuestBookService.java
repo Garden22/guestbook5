@@ -30,7 +30,7 @@ public class GuestBookService {
 	}
 	
 	public void delete(int no) {
-		if (no != -1) gbDao.delete(no);
+		gbDao.delete(no);
 		
 	}
 	
